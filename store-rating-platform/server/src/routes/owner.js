@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { prisma } from "../db.js";
 import { authenticate, requireRoles } from "../middleware/auth.js";
-import { asyncHandler, average } from "../utils.js";
+import { asyncHandler, average } from "../../utils.js";
 
 const router = Router();
 

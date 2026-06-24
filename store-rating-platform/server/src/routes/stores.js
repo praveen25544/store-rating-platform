@@ -2,7 +2,7 @@ import { Router } from "express";
 import { prisma } from "../db.js";
 import { authenticate, requireRoles } from "../middleware/auth.js";
 import { idParamRule, ratingRule, validate } from "../middleware/validators.js";
-import { asyncHandler, average, getSort } from "../utils.js";
+import { asyncHandler, average, getSort } from "../../utils.js";
 
 const router = Router();
 

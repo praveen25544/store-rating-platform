@@ -10,7 +10,7 @@ import {
   passwordRule,
   validate
 } from "../middleware/validators.js";
-import { asyncHandler, publicUser } from "../utils.js";
+import { asyncHandler, publicUser } from "../../utils.js";
 
 const router = Router();
 

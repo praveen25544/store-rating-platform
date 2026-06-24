@@ -13,7 +13,7 @@ import {
   roleRule,
   validate
 } from "../middleware/validators.js";
-import { asyncHandler, average, getSort, publicUser } from "../utils.js";
+import { asyncHandler, average, getSort, publicUser } from "../../utils.js";
 
 const router = Router();
 
